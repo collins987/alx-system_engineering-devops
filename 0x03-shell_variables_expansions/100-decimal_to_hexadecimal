@@ -1,2 +1,2 @@
-export DECIMAL=1337
-./100-decimal_to_hexadecimal
+#!/bin/bash
+printf "%x\n" "$1"

@@ -1,2 +1,2 @@
-export WATER="ewwatratewa"
-export STIR="ti.itirtrtr" ./103-water_and_stir
+#!/bin/bash
+echo -e "water\nand\nstir"
