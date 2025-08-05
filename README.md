@@ -22,10 +22,11 @@ This project focuses on understanding the shell environment, initialization file
 | `11-binary_to_decimal` | Converts the binary number stored in `$BINARY` to decimal |
 | `12-combinations` | Prints all 2-letter combinations of lowercase letters (except `oo`) |
 | `13-print_float` | Prints the value of `$NUM` rounded to two decimal places |
-| `100-decimal_to_hexadecimal` | Converts a number from base 10 to base 16. The decimal number is stored in the environment variable `DECIMAL`. The output is the corresponding hexadecimal representation. |
-| `101-rot13` | Encodes or decodes input text using the **ROT13 encryption algorithm**. It processes standard input and assumes ASCII text. |
-| `102-odd` | Prints **every other line** from the standard input, starting with the first line (i.e., filters and prints only odd-numbered lines). |
-| `103-water_and_stir` | Adds two numbers stored in environment variables `WATER` and `STIR`, which are written in custom base strings `"water"` and `"stir"` respectively. The result is output in the base `"bestchol"`. A fun exercise in custom base arithmetic and string-based encoding. |
+                                                      
+| `100-decimal_to_hexadecimal` | Converts a number from base 10 to base 16. The decimal number is stored in the environment variable `DECIMAL`. The output is the corresponding hexadecimal representation.                                                                                            |
+| `101-rot13`                  | Encodes or decodes input text using the **ROT13 encryption algorithm**. It processes standard input and assumes ASCII text.                                                                                                                                           |
+| `102-odd`                    | Prints **every other line** from the standard input, starting with the first line (i.e., filters and prints only odd-numbered lines).                                                                                                                                 |
+| `103-water_and_stir`         | Adds two numbers stored in environment variables `WATER` and `STIR`, which are written in custom base strings `"water"` and `"stir"` respectively. The result is output in the base `"bestchol"`. A fun exercise in custom base arithmetic and string-based encoding. |
 
 ---
 
