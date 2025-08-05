@@ -1,0 +1,2 @@
+echo "Everyone is a proponent of strong encryption." | ./101-rot13
+# Output: Rirelbar vf n cebcbarag bs fgebat rapelcgvba.

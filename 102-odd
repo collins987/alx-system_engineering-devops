@@ -1,0 +1,2 @@
+ls -1 | ./102-odd
+# Outputs: Every other line from the list
