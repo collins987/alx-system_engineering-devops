@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d 'aAeEiIoOuU ' | tr -d '\n'
+rev | tr ' ' '\n' | cut -c1 | tr -d '\n'
