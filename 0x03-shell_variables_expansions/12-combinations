@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -c 'from itertools import product;[print(f"{a}{b}") for a,b in product("abcdefghijklmnopqrstuvwxyz",repeat=2) if f"{a}{b}"!="oo"]'
+tr -d '\n' < <(printf "%s\n" {a..z}{a..z}) | fold -w2 | grep -v oo
