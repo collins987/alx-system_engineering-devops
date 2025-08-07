@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'ewatrti.' 012340123 | xargs -n2 | { read a b; echo "obase=8; $((10#$a + 10#$b))"; } | tr 01234567 behcolst
+echo $(( $(echo "$WATER" | tr 'waetr' 01234) + $(echo "$STIR" | tr 'stir' 0123) )) | xargs printf '%o\n' | tr 01234567 bestchol
