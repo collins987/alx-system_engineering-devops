@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo "$WATER" | tr 'waetr' 01234) + $(echo "$STIR" | tr 'stir' 0123) )) | xargs printf '%o\n' | tr 01234567 bestchol
+echo $(( $(echo "$WATER" | tr 'ewatr' 01234) + $(echo "$STIR" | tr 'ti.irtr' 0123456) )) | tr 0123456789 'shtbeolhc'
