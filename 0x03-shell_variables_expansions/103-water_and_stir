@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo $(( $(tr 'waehrt' 012345 <<< $WATER) + $(tr 'trite.' 012345 <<< $STIR) )) | tr 01234567 bestchol)
+tr 'ewatrti.' 012340123 | xargs -n2 | { read a b; echo "obase=8; $((10#$a + 10#$b))"; } | tr 01234567 behcolst
