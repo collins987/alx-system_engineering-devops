@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "water\nand\nstir"
+tr -d 'aAeEiIoOuU ' | tr -d '\n'
