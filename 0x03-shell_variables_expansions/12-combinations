@@ -1,2 +1,2 @@
 #!/bin/bash
-for a in {a..z}; do for b in {a..z}; do if [ "$a$b" != "oo" ]; then echo "$a$b"; fi; done; done
+python3 -c 'from itertools import product;[print(f"{a}{b}") for a,b in product("abcdefghijklmnopqrstuvwxyz",repeat=2) if f"{a}{b}"!="oo"]'
