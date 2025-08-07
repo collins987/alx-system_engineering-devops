@@ -1,2 +1,2 @@
 #!/bin/bash
-rev | tr ' ' '\n' | cut -c1 | tr -d '\n'
+echo "$(( $(echo "$WATER" | tr 'ewatr' '01234') + $(echo "$STIR" | tr 'ti.r' '0123') ))" | tr '01234567' 'bestchol'
